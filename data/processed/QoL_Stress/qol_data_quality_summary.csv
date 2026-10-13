@@ -1,0 +1,6 @@
+modality,total_records,expected_records,missing_values,unique_participants,anomaly_notes,status
+Demographics (participants.csv),66,66,0,66,None. Pristine demographic records.,PASS
+ECG Waveforms (ecg.csv),132,132,0,66,18 rows had isolated hyphen tokens; 10 strips unclassifiable by device.,PASS (Handled by parser)
+EDA Sessions (eda.csv),20094,132 sessions expected; 124 available,0,64,386 invalid sensor flags; 180 negative timestamps across 5 sessions; 2 users missing EDA.,PASS (Filtered during extraction)
+PSS-14 Questionnaire (pss_14.csv),66,66,0,66,None. 100% complete psychometric trait responses.,PASS
+STAI Questionnaire (stai.csv),132,132,0,66,None. 100% complete paired state anxiety responses.,PASS

@@ -1,0 +1,3 @@
+target_label,phase,session_count,condition_name,percent_total
+0,relax,64,Relaxation (Baseline),51.61
+1,stress,60,Acute Stress,48.39

@@ -1,0 +1,120 @@
+subject_id,label_id,condition_name,sample_count,duration_sec,duration_min,is_binary_task,binary_target
+S2,0,Transient / Unlabeled,2142701,3061.0,51.02,False,
+S2,1,Baseline (Resting neutral),800800,1144.0,19.07,True,0.0
+S2,2,Stress (Trier Social Stress Test),430500,615.0,10.25,True,1.0
+S2,3,Amusement (Funny video clips),253400,362.0,6.03,False,
+S2,4,Meditation (Guided relaxation),537599,768.0,12.8,False,
+S2,6,Ignored / Undefined (6),45500,65.0,1.08,False,
+S2,7,Ignored / Undefined (7),44800,64.0,1.07,False,
+S3,0,Transient / Unlabeled,2345699,3351.0,55.85,False,
+S3,1,Baseline (Resting neutral),798000,1140.0,19.0,True,0.0
+S3,2,Stress (Trier Social Stress Test),448000,640.0,10.67,True,1.0
+S3,3,Amusement (Funny video clips),262500,375.0,6.25,False,
+S3,4,Meditation (Guided relaxation),546001,780.0,13.0,False,
+S3,5,Ignored / Undefined (5),51100,73.0,1.22,False,
+S3,6,Ignored / Undefined (6),46900,67.0,1.12,False,
+S3,7,Ignored / Undefined (7),46900,67.0,1.12,False,
+S4,0,Transient / Unlabeled,2314199,3306.0,55.1,False,
+S4,1,Baseline (Resting neutral),810601,1158.0,19.3,True,0.0
+S4,2,Stress (Trier Social Stress Test),444500,635.0,10.58,True,1.0
+S4,3,Amusement (Funny video clips),260400,372.0,6.2,False,
+S4,4,Meditation (Guided relaxation),563500,805.0,13.42,False,
+S4,5,Ignored / Undefined (5),35699,51.0,0.85,False,
+S4,6,Ignored / Undefined (6),30800,44.0,0.73,False,
+S4,7,Ignored / Undefined (7),36401,52.0,0.87,False,
+S5,0,Transient / Unlabeled,2142700,3061.0,51.02,False,
+S5,1,Baseline (Resting neutral),838600,1198.0,19.97,True,0.0
+S5,2,Stress (Trier Social Stress Test),451500,645.0,10.75,True,1.0
+S5,3,Amusement (Funny video clips),261800,374.0,6.23,False,
+S5,4,Meditation (Guided relaxation),555800,794.0,13.23,False,
+S5,5,Ignored / Undefined (5),50401,72.0,1.2,False,
+S5,6,Ignored / Undefined (6),30799,44.0,0.73,False,
+S5,7,Ignored / Undefined (7),49000,70.0,1.17,False,
+S6,0,Transient / Unlabeled,2733499,3905.0,65.08,False,
+S6,1,Baseline (Resting neutral),826000,1180.0,19.67,True,0.0
+S6,2,Stress (Trier Social Stress Test),455000,650.0,10.83,True,1.0
+S6,3,Amusement (Funny video clips),260400,372.0,6.2,False,
+S6,4,Meditation (Guided relaxation),550900,787.0,13.12,False,
+S6,5,Ignored / Undefined (5),40600,58.0,0.97,False,
+S6,6,Ignored / Undefined (6),35001,50.0,0.83,False,
+S6,7,Ignored / Undefined (7),48300,69.0,1.15,False,
+S7,0,Transient / Unlabeled,1472098,2103.0,35.05,False,
+S7,1,Baseline (Resting neutral),830200,1186.0,19.77,True,0.0
+S7,2,Stress (Trier Social Stress Test),448000,640.0,10.67,True,1.0
+S7,3,Amusement (Funny video clips),260401,372.0,6.2,False,
+S7,4,Meditation (Guided relaxation),553001,790.0,13.17,False,
+S7,5,Ignored / Undefined (5),35000,50.0,0.83,False,
+S7,6,Ignored / Undefined (6),30799,44.0,0.73,False,
+S7,7,Ignored / Undefined (7),37101,53.0,0.88,False,
+S8,0,Transient / Unlabeled,1616300,2309.0,38.48,False,
+S8,1,Baseline (Resting neutral),818300,1169.0,19.48,True,0.0
+S8,2,Stress (Trier Social Stress Test),469000,670.0,11.17,True,1.0
+S8,3,Amusement (Funny video clips),258999,370.0,6.17,False,
+S8,4,Meditation (Guided relaxation),557200,796.0,13.27,False,
+S8,5,Ignored / Undefined (5),34300,49.0,0.82,False,
+S8,6,Ignored / Undefined (6),35701,51.0,0.85,False,
+S8,7,Ignored / Undefined (7),36400,52.0,0.87,False,
+S9,0,Transient / Unlabeled,1435700,2051.0,34.18,False,
+S9,1,Baseline (Resting neutral),826000,1180.0,19.67,True,0.0
+S9,2,Stress (Trier Social Stress Test),451500,645.0,10.75,True,1.0
+S9,3,Amusement (Funny video clips),260400,372.0,6.2,False,
+S9,4,Meditation (Guided relaxation),555100,793.0,13.22,False,
+S9,5,Ignored / Undefined (5),42000,60.0,1.0,False,
+S9,6,Ignored / Undefined (6),43400,62.0,1.03,False,
+S9,7,Ignored / Undefined (7),42000,60.0,1.0,False,
+S10,0,Transient / Unlabeled,1589000,2270.0,37.83,False,
+S10,1,Baseline (Resting neutral),826000,1180.0,19.67,True,0.0
+S10,2,Stress (Trier Social Stress Test),507500,725.0,12.08,True,1.0
+S10,3,Amusement (Funny video clips),260400,372.0,6.2,False,
+S10,4,Meditation (Guided relaxation),557200,796.0,13.27,False,
+S10,5,Ignored / Undefined (5),35700,51.0,0.85,False,
+S10,6,Ignored / Undefined (6),31500,45.0,0.75,False,
+S10,7,Ignored / Undefined (7),39900,57.0,0.95,False,
+S11,0,Transient / Unlabeled,1443400,2062.0,34.37,False,
+S11,1,Baseline (Resting neutral),826000,1180.0,19.67,True,0.0
+S11,2,Stress (Trier Social Stress Test),476000,680.0,11.33,True,1.0
+S11,3,Amusement (Funny video clips),257600,368.0,6.13,False,
+S11,4,Meditation (Guided relaxation),553701,791.0,13.18,False,
+S11,5,Ignored / Undefined (5),35000,50.0,0.83,False,
+S11,6,Ignored / Undefined (6),36399,52.0,0.87,False,
+S11,7,Ignored / Undefined (7),35000,50.0,0.83,False,
+S13,0,Transient / Unlabeled,1679300,2399.0,39.98,False,
+S13,1,Baseline (Resting neutral),826001,1180.0,19.67,True,0.0
+S13,2,Stress (Trier Social Stress Test),464800,664.0,11.07,True,1.0
+S13,3,Amusement (Funny video clips),267400,382.0,6.37,False,
+S13,4,Meditation (Guided relaxation),556499,795.0,13.25,False,
+S13,5,Ignored / Undefined (5),34300,49.0,0.82,False,
+S13,6,Ignored / Undefined (6),33600,48.0,0.8,False,
+S13,7,Ignored / Undefined (7),14000,20.0,0.33,False,
+S14,0,Transient / Unlabeled,1648499,2355.0,39.25,False,
+S14,1,Baseline (Resting neutral),826000,1180.0,19.67,True,0.0
+S14,2,Stress (Trier Social Stress Test),472500,675.0,11.25,True,1.0
+S14,3,Amusement (Funny video clips),260401,372.0,6.2,False,
+S14,4,Meditation (Guided relaxation),555800,794.0,13.23,False,
+S14,5,Ignored / Undefined (5),44100,63.0,1.05,False,
+S14,6,Ignored / Undefined (6),38500,55.0,0.92,False,
+S14,7,Ignored / Undefined (7),37800,54.0,0.9,False,
+S15,0,Transient / Unlabeled,1457401,2082.0,34.7,False,
+S15,1,Baseline (Resting neutral),822500,1175.0,19.58,True,0.0
+S15,2,Stress (Trier Social Stress Test),480200,686.0,11.43,True,1.0
+S15,3,Amusement (Funny video clips),260400,372.0,6.2,False,
+S15,4,Meditation (Guided relaxation),555799,794.0,13.23,False,
+S15,5,Ignored / Undefined (5),35000,50.0,0.83,False,
+S15,6,Ignored / Undefined (6),32900,47.0,0.78,False,
+S15,7,Ignored / Undefined (7),32200,46.0,0.77,False,
+S16,0,Transient / Unlabeled,1717100,2453.0,40.88,False,
+S16,1,Baseline (Resting neutral),826000,1180.0,19.67,True,0.0
+S16,2,Stress (Trier Social Stress Test),471101,673.0,11.22,True,1.0
+S16,3,Amusement (Funny video clips),257600,368.0,6.13,False,
+S16,4,Meditation (Guided relaxation),554399,792.0,13.2,False,
+S16,5,Ignored / Undefined (5),38500,55.0,0.92,False,
+S16,6,Ignored / Undefined (6),39900,57.0,0.95,False,
+S16,7,Ignored / Undefined (7),37100,53.0,0.88,False,
+S17,0,Transient / Unlabeled,1917301,2739.0,45.65,False,
+S17,1,Baseline (Resting neutral),826700,1181.0,19.68,True,0.0
+S17,2,Stress (Trier Social Stress Test),506100,723.0,12.05,True,1.0
+S17,3,Amusement (Funny video clips),260400,372.0,6.2,False,
+S17,4,Meditation (Guided relaxation),511700,731.0,12.18,False,
+S17,5,Ignored / Undefined (5),40600,58.0,0.97,False,
+S17,6,Ignored / Undefined (6),41299,59.0,0.98,False,
+S17,7,Ignored / Undefined (7),39900,57.0,0.95,False,

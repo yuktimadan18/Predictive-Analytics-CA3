@@ -1,0 +1,33 @@
+feature_name,modality,device,unit,stat_metric,role
+username,Metadata,N/A,String (SHA-256),Identifier,Subject Grouping (LOSO)
+phase,Metadata,Protocol,Category,Protocol Phase,Phase Tracking
+target_label,Ground Truth,Protocol,Binary Code,Target,"Classification Target: 0=Relax, 1=Stress"
+ecg_device_heart_rate,Cardiovascular,Fitbit Charge 6 ECG,bpm,Device Heart Rate,Primary Physiological Predictor
+ecg_wf_mean,Cardiovascular,Fitbit Charge 6 ECG,ADC counts,Waveform Mean,Primary Physiological Predictor
+ecg_wf_std,Cardiovascular,Fitbit Charge 6 ECG,ADC counts,Waveform Standard Deviation,Primary Physiological Predictor
+ecg_wf_min,Cardiovascular,Fitbit Charge 6 ECG,ADC counts,Waveform Minimum,Primary Physiological Predictor
+ecg_wf_max,Cardiovascular,Fitbit Charge 6 ECG,ADC counts,Waveform Maximum,Primary Physiological Predictor
+ecg_wf_median,Cardiovascular,Fitbit Charge 6 ECG,ADC counts,Waveform Median,Primary Physiological Predictor
+ecg_wf_iqr,Cardiovascular,Fitbit Charge 6 ECG,ADC counts,Waveform Interquartile Range,Primary Physiological Predictor
+ecg_wf_rms,Cardiovascular,Fitbit Charge 6 ECG,ADC counts,Waveform Root Mean Square,Primary Physiological Predictor
+ecg_wf_skew,Cardiovascular,Fitbit Charge 6 ECG,Dimensionless,Waveform Skewness,Primary Physiological Predictor
+ecg_wf_kurt,Cardiovascular,Fitbit Charge 6 ECG,Dimensionless,Waveform Kurtosis,Primary Physiological Predictor
+ecg_hrv_mean_rr_ms,Cardiovascular HRV,Fitbit Charge 6 ECG,ms,Mean R-R Interval,Primary Physiological Predictor
+ecg_hrv_sdnn_ms,Cardiovascular HRV,Fitbit Charge 6 ECG,ms,SDNN (Standard Deviation of NN intervals),Primary Physiological Predictor
+ecg_hrv_rmssd_ms,Cardiovascular HRV,Fitbit Charge 6 ECG,ms,RMSSD (Root Mean Square of Successive Differences),Primary Physiological Predictor
+ecg_hrv_pnn50_pct,Cardiovascular HRV,Fitbit Charge 6 ECG,%,pNN50 (Percentage of intervals > 50ms),Primary Physiological Predictor
+ecg_hrv_calc_hr_bpm,Cardiovascular HRV,Fitbit Charge 6 ECG,bpm,Calculated Heart Rate from RR,Primary Physiological Predictor
+eda_scl_mean,Electrodermal,Fitbit Charge 6 EDA,μS,Tonic SCL Mean,Primary Physiological Predictor
+eda_scl_std,Electrodermal,Fitbit Charge 6 EDA,μS,Tonic SCL Standard Deviation,Primary Physiological Predictor
+eda_scl_min,Electrodermal,Fitbit Charge 6 EDA,μS,Tonic SCL Minimum,Primary Physiological Predictor
+eda_scl_max,Electrodermal,Fitbit Charge 6 EDA,μS,Tonic SCL Maximum,Primary Physiological Predictor
+eda_scl_median,Electrodermal,Fitbit Charge 6 EDA,μS,Tonic SCL Median,Primary Physiological Predictor
+eda_scl_iqr,Electrodermal,Fitbit Charge 6 EDA,μS,Tonic SCL Interquartile Range,Primary Physiological Predictor
+eda_scl_rms,Electrodermal,Fitbit Charge 6 EDA,μS,Tonic SCL Root Mean Square,Primary Physiological Predictor
+eda_activation_count,Electrodermal,Fitbit Charge 6 EDA,Count,Phasic Activation (SCR) Count,Primary Physiological Predictor
+eda_activation_rate_per_min,Electrodermal,Fitbit Charge 6 EDA,Activations/min,Phasic Activation Rate,Primary Physiological Predictor
+eda_valid_ratio,Electrodermal,Fitbit Charge 6 EDA,"Ratio [0, 1]",Valid Sample Ratio,Primary Physiological Predictor
+demog_age,Demographic,Self-Report,Years,Participant Age,Secondary Demographic Predictor (Multimodal Ablation)
+demog_sex_male,Demographic,Self-Report,"Binary [0, 1]","Biological Sex (Male=1, Female=0)",Secondary Demographic Predictor (Multimodal Ablation)
+trait_pss_score,Psychometric Trait,Questionnaire,Score (0–56),PSS-14 Trait Stress Score,Secondary Trait Predictor (Multimodal Ablation)
+state_stai_score,Psychometric State,Questionnaire,Score (20–80),STAI State Anxiety Score,Excluded Target-Derived Benchmark (Self-Report Anxiety)

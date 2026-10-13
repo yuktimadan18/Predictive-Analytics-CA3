@@ -1,0 +1,16 @@
+subject_id,pkl_available,pkl_size_mb,quest_available,readme_available,respiban_raw_available,e4_zip_available,age,height_cm,gender,readme_notes,status
+S2,True,929.94,True,True,True,True,27.0,175.0,male,The RespiBAN temperature sensor was not fully attached throughout the entire duration of the study protocol.,Ready for processing
+S3,True,983.72,True,True,True,True,27.0,173.0,male,"During the baseline condition, the subject was sitting in a sunny workplace. Subject provided a valence label of 7 after the stress condition, claiming that he was looking forward to the next condition and was therefore cheerful.",Ready for processing
+S4,True,986.43,True,True,True,True,25.0,175.0,male,-,Ready for processing
+S5,True,947.41,True,True,True,True,35.0,189.0,male,Subject might have fallen asleep during the first meditation.,Ready for processing
+S6,True,1071.26,True,True,True,True,27.0,170.0,male,Subject claimed that he had a stressfull week and hence the study was rather relaxing for him. Stress condition / TSST interview part: subject was not really stressed as he encountered many interviews in the weeks before.,Ready for processing
+S7,True,791.0,True,True,True,True,28.0,184.0,male,-,Ready for processing
+S8,True,829.19,True,True,True,True,27.0,172.0,female,"Subject had already a rather stressful day, prior to the study. Subject felt rather cold in the room where the stress condition was carried out.",Ready for processing
+S9,True,794.07,True,True,True,True,26.0,181.0,male,-,Ready for processing
+S10,True,827.01,True,True,True,True,28.0,178.0,male,-,Ready for processing
+S11,True,792.59,True,True,True,True,26.0,171.0,female,-,Ready for processing
+S13,True,844.3,True,True,True,True,28.0,181.0,male,-,Ready for processing
+S14,True,840.32,True,True,True,True,27.0,180.0,male,-,Ready for processing
+S15,True,789.37,True,True,True,True,28.0,186.0,male,Subject didn't really believe the cover story of the stress condition (TSST).,Ready for processing
+S16,True,857.33,True,True,True,True,24.0,184.0,male,Subject felt rather cold in the room where the stress condition was carried out.,Ready for processing
+S17,True,903.11,True,True,True,True,29.0,165.0,female,The RespiBAN temperature sensor was not fully attached throughout the entire duration of the study protocol.,Ready for processing

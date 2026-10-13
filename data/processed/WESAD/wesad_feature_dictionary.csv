@@ -1,0 +1,150 @@
+feature_name,modality,device,unit,stat_metric,role
+subject,Metadata,N/A,String,Identifier,Subject Grouping (LOSO)
+window_idx,Metadata,N/A,Integer,Index,Window Identifier
+start_sec,Metadata,N/A,Seconds,Timestamp,Temporal Tracking
+end_sec,Metadata,N/A,Seconds,Timestamp,Temporal Tracking
+target_label,Ground Truth,Study Protocol,Binary Code,Classification Target,"Target: 0=Baseline, 1=Stress"
+c_acc_x_mean,Accelerometer X-axis,RespiBAN (Chest),g,Arithmetic Mean (Central tendency),Predictor Feature
+c_acc_x_std,Accelerometer X-axis,RespiBAN (Chest),g,Standard Deviation (Signal dispersion / variability),Predictor Feature
+c_acc_x_min,Accelerometer X-axis,RespiBAN (Chest),g,Minimum Value in Window,Predictor Feature
+c_acc_x_max,Accelerometer X-axis,RespiBAN (Chest),g,Maximum Value in Window,Predictor Feature
+c_acc_x_median,Accelerometer X-axis,RespiBAN (Chest),g,50th Percentile / Median,Predictor Feature
+c_acc_x_q25,Accelerometer X-axis,RespiBAN (Chest),g,25th Percentile (Lower quartile),Predictor Feature
+c_acc_x_q75,Accelerometer X-axis,RespiBAN (Chest),g,75th Percentile (Upper quartile),Predictor Feature
+c_acc_x_iqr,Accelerometer X-axis,RespiBAN (Chest),g,Interquartile Range (75th - 25th percentile),Predictor Feature
+c_acc_x_rms,Accelerometer X-axis,RespiBAN (Chest),g,Root Mean Square (Signal energy / power),Predictor Feature
+c_acc_y_mean,Accelerometer Y-axis,RespiBAN (Chest),g,Arithmetic Mean (Central tendency),Predictor Feature
+c_acc_y_std,Accelerometer Y-axis,RespiBAN (Chest),g,Standard Deviation (Signal dispersion / variability),Predictor Feature
+c_acc_y_min,Accelerometer Y-axis,RespiBAN (Chest),g,Minimum Value in Window,Predictor Feature
+c_acc_y_max,Accelerometer Y-axis,RespiBAN (Chest),g,Maximum Value in Window,Predictor Feature
+c_acc_y_median,Accelerometer Y-axis,RespiBAN (Chest),g,50th Percentile / Median,Predictor Feature
+c_acc_y_q25,Accelerometer Y-axis,RespiBAN (Chest),g,25th Percentile (Lower quartile),Predictor Feature
+c_acc_y_q75,Accelerometer Y-axis,RespiBAN (Chest),g,75th Percentile (Upper quartile),Predictor Feature
+c_acc_y_iqr,Accelerometer Y-axis,RespiBAN (Chest),g,Interquartile Range (75th - 25th percentile),Predictor Feature
+c_acc_y_rms,Accelerometer Y-axis,RespiBAN (Chest),g,Root Mean Square (Signal energy / power),Predictor Feature
+c_acc_z_mean,Accelerometer Z-axis,RespiBAN (Chest),g,Arithmetic Mean (Central tendency),Predictor Feature
+c_acc_z_std,Accelerometer Z-axis,RespiBAN (Chest),g,Standard Deviation (Signal dispersion / variability),Predictor Feature
+c_acc_z_min,Accelerometer Z-axis,RespiBAN (Chest),g,Minimum Value in Window,Predictor Feature
+c_acc_z_max,Accelerometer Z-axis,RespiBAN (Chest),g,Maximum Value in Window,Predictor Feature
+c_acc_z_median,Accelerometer Z-axis,RespiBAN (Chest),g,50th Percentile / Median,Predictor Feature
+c_acc_z_q25,Accelerometer Z-axis,RespiBAN (Chest),g,25th Percentile (Lower quartile),Predictor Feature
+c_acc_z_q75,Accelerometer Z-axis,RespiBAN (Chest),g,75th Percentile (Upper quartile),Predictor Feature
+c_acc_z_iqr,Accelerometer Z-axis,RespiBAN (Chest),g,Interquartile Range (75th - 25th percentile),Predictor Feature
+c_acc_z_rms,Accelerometer Z-axis,RespiBAN (Chest),g,Root Mean Square (Signal energy / power),Predictor Feature
+c_acc_mag_mean,Accelerometer 3D Magnitude,RespiBAN (Chest),g,Arithmetic Mean (Central tendency),Predictor Feature
+c_acc_mag_std,Accelerometer 3D Magnitude,RespiBAN (Chest),g,Standard Deviation (Signal dispersion / variability),Predictor Feature
+c_acc_mag_min,Accelerometer 3D Magnitude,RespiBAN (Chest),g,Minimum Value in Window,Predictor Feature
+c_acc_mag_max,Accelerometer 3D Magnitude,RespiBAN (Chest),g,Maximum Value in Window,Predictor Feature
+c_acc_mag_median,Accelerometer 3D Magnitude,RespiBAN (Chest),g,50th Percentile / Median,Predictor Feature
+c_acc_mag_q25,Accelerometer 3D Magnitude,RespiBAN (Chest),g,25th Percentile (Lower quartile),Predictor Feature
+c_acc_mag_q75,Accelerometer 3D Magnitude,RespiBAN (Chest),g,75th Percentile (Upper quartile),Predictor Feature
+c_acc_mag_iqr,Accelerometer 3D Magnitude,RespiBAN (Chest),g,Interquartile Range (75th - 25th percentile),Predictor Feature
+c_acc_mag_rms,Accelerometer 3D Magnitude,RespiBAN (Chest),g,Root Mean Square (Signal energy / power),Predictor Feature
+c_ecg_mean,Electrocardiogram (Lead II),RespiBAN (Chest),mV,Arithmetic Mean (Central tendency),Predictor Feature
+c_ecg_std,Electrocardiogram (Lead II),RespiBAN (Chest),mV,Standard Deviation (Signal dispersion / variability),Predictor Feature
+c_ecg_min,Electrocardiogram (Lead II),RespiBAN (Chest),mV,Minimum Value in Window,Predictor Feature
+c_ecg_max,Electrocardiogram (Lead II),RespiBAN (Chest),mV,Maximum Value in Window,Predictor Feature
+c_ecg_median,Electrocardiogram (Lead II),RespiBAN (Chest),mV,50th Percentile / Median,Predictor Feature
+c_ecg_q25,Electrocardiogram (Lead II),RespiBAN (Chest),mV,25th Percentile (Lower quartile),Predictor Feature
+c_ecg_q75,Electrocardiogram (Lead II),RespiBAN (Chest),mV,75th Percentile (Upper quartile),Predictor Feature
+c_ecg_iqr,Electrocardiogram (Lead II),RespiBAN (Chest),mV,Interquartile Range (75th - 25th percentile),Predictor Feature
+c_ecg_rms,Electrocardiogram (Lead II),RespiBAN (Chest),mV,Root Mean Square (Signal energy / power),Predictor Feature
+c_emg_mean,Electromyogram (Trapezius),RespiBAN (Chest),mV,Arithmetic Mean (Central tendency),Predictor Feature
+c_emg_std,Electromyogram (Trapezius),RespiBAN (Chest),mV,Standard Deviation (Signal dispersion / variability),Predictor Feature
+c_emg_min,Electromyogram (Trapezius),RespiBAN (Chest),mV,Minimum Value in Window,Predictor Feature
+c_emg_max,Electromyogram (Trapezius),RespiBAN (Chest),mV,Maximum Value in Window,Predictor Feature
+c_emg_median,Electromyogram (Trapezius),RespiBAN (Chest),mV,50th Percentile / Median,Predictor Feature
+c_emg_q25,Electromyogram (Trapezius),RespiBAN (Chest),mV,25th Percentile (Lower quartile),Predictor Feature
+c_emg_q75,Electromyogram (Trapezius),RespiBAN (Chest),mV,75th Percentile (Upper quartile),Predictor Feature
+c_emg_iqr,Electromyogram (Trapezius),RespiBAN (Chest),mV,Interquartile Range (75th - 25th percentile),Predictor Feature
+c_emg_rms,Electromyogram (Trapezius),RespiBAN (Chest),mV,Root Mean Square (Signal energy / power),Predictor Feature
+c_eda_mean,Electrodermal Activity,RespiBAN (Chest),μS,Arithmetic Mean (Central tendency),Predictor Feature
+c_eda_std,Electrodermal Activity,RespiBAN (Chest),μS,Standard Deviation (Signal dispersion / variability),Predictor Feature
+c_eda_min,Electrodermal Activity,RespiBAN (Chest),μS,Minimum Value in Window,Predictor Feature
+c_eda_max,Electrodermal Activity,RespiBAN (Chest),μS,Maximum Value in Window,Predictor Feature
+c_eda_median,Electrodermal Activity,RespiBAN (Chest),μS,50th Percentile / Median,Predictor Feature
+c_eda_q25,Electrodermal Activity,RespiBAN (Chest),μS,25th Percentile (Lower quartile),Predictor Feature
+c_eda_q75,Electrodermal Activity,RespiBAN (Chest),μS,75th Percentile (Upper quartile),Predictor Feature
+c_eda_iqr,Electrodermal Activity,RespiBAN (Chest),μS,Interquartile Range (75th - 25th percentile),Predictor Feature
+c_eda_rms,Electrodermal Activity,RespiBAN (Chest),μS,Root Mean Square (Signal energy / power),Predictor Feature
+c_temp_mean,Skin Temperature,RespiBAN (Chest),°C,Arithmetic Mean (Central tendency),Predictor Feature
+c_temp_std,Skin Temperature,RespiBAN (Chest),°C,Standard Deviation (Signal dispersion / variability),Predictor Feature
+c_temp_min,Skin Temperature,RespiBAN (Chest),°C,Minimum Value in Window,Predictor Feature
+c_temp_max,Skin Temperature,RespiBAN (Chest),°C,Maximum Value in Window,Predictor Feature
+c_temp_median,Skin Temperature,RespiBAN (Chest),°C,50th Percentile / Median,Predictor Feature
+c_temp_q25,Skin Temperature,RespiBAN (Chest),°C,25th Percentile (Lower quartile),Predictor Feature
+c_temp_q75,Skin Temperature,RespiBAN (Chest),°C,75th Percentile (Upper quartile),Predictor Feature
+c_temp_iqr,Skin Temperature,RespiBAN (Chest),°C,Interquartile Range (75th - 25th percentile),Predictor Feature
+c_temp_rms,Skin Temperature,RespiBAN (Chest),°C,Root Mean Square (Signal energy / power),Predictor Feature
+c_resp_mean,Respiration (Inductance),RespiBAN (Chest),%,Arithmetic Mean (Central tendency),Predictor Feature
+c_resp_std,Respiration (Inductance),RespiBAN (Chest),%,Standard Deviation (Signal dispersion / variability),Predictor Feature
+c_resp_min,Respiration (Inductance),RespiBAN (Chest),%,Minimum Value in Window,Predictor Feature
+c_resp_max,Respiration (Inductance),RespiBAN (Chest),%,Maximum Value in Window,Predictor Feature
+c_resp_median,Respiration (Inductance),RespiBAN (Chest),%,50th Percentile / Median,Predictor Feature
+c_resp_q25,Respiration (Inductance),RespiBAN (Chest),%,25th Percentile (Lower quartile),Predictor Feature
+c_resp_q75,Respiration (Inductance),RespiBAN (Chest),%,75th Percentile (Upper quartile),Predictor Feature
+c_resp_iqr,Respiration (Inductance),RespiBAN (Chest),%,Interquartile Range (75th - 25th percentile),Predictor Feature
+c_resp_rms,Respiration (Inductance),RespiBAN (Chest),%,Root Mean Square (Signal energy / power),Predictor Feature
+w_acc_x_mean,Accelerometer X-axis,Empatica E4 (Wrist),g,Arithmetic Mean (Central tendency),Predictor Feature
+w_acc_x_std,Accelerometer X-axis,Empatica E4 (Wrist),g,Standard Deviation (Signal dispersion / variability),Predictor Feature
+w_acc_x_min,Accelerometer X-axis,Empatica E4 (Wrist),g,Minimum Value in Window,Predictor Feature
+w_acc_x_max,Accelerometer X-axis,Empatica E4 (Wrist),g,Maximum Value in Window,Predictor Feature
+w_acc_x_median,Accelerometer X-axis,Empatica E4 (Wrist),g,50th Percentile / Median,Predictor Feature
+w_acc_x_q25,Accelerometer X-axis,Empatica E4 (Wrist),g,25th Percentile (Lower quartile),Predictor Feature
+w_acc_x_q75,Accelerometer X-axis,Empatica E4 (Wrist),g,75th Percentile (Upper quartile),Predictor Feature
+w_acc_x_iqr,Accelerometer X-axis,Empatica E4 (Wrist),g,Interquartile Range (75th - 25th percentile),Predictor Feature
+w_acc_x_rms,Accelerometer X-axis,Empatica E4 (Wrist),g,Root Mean Square (Signal energy / power),Predictor Feature
+w_acc_y_mean,Accelerometer Y-axis,Empatica E4 (Wrist),g,Arithmetic Mean (Central tendency),Predictor Feature
+w_acc_y_std,Accelerometer Y-axis,Empatica E4 (Wrist),g,Standard Deviation (Signal dispersion / variability),Predictor Feature
+w_acc_y_min,Accelerometer Y-axis,Empatica E4 (Wrist),g,Minimum Value in Window,Predictor Feature
+w_acc_y_max,Accelerometer Y-axis,Empatica E4 (Wrist),g,Maximum Value in Window,Predictor Feature
+w_acc_y_median,Accelerometer Y-axis,Empatica E4 (Wrist),g,50th Percentile / Median,Predictor Feature
+w_acc_y_q25,Accelerometer Y-axis,Empatica E4 (Wrist),g,25th Percentile (Lower quartile),Predictor Feature
+w_acc_y_q75,Accelerometer Y-axis,Empatica E4 (Wrist),g,75th Percentile (Upper quartile),Predictor Feature
+w_acc_y_iqr,Accelerometer Y-axis,Empatica E4 (Wrist),g,Interquartile Range (75th - 25th percentile),Predictor Feature
+w_acc_y_rms,Accelerometer Y-axis,Empatica E4 (Wrist),g,Root Mean Square (Signal energy / power),Predictor Feature
+w_acc_z_mean,Accelerometer Z-axis,Empatica E4 (Wrist),g,Arithmetic Mean (Central tendency),Predictor Feature
+w_acc_z_std,Accelerometer Z-axis,Empatica E4 (Wrist),g,Standard Deviation (Signal dispersion / variability),Predictor Feature
+w_acc_z_min,Accelerometer Z-axis,Empatica E4 (Wrist),g,Minimum Value in Window,Predictor Feature
+w_acc_z_max,Accelerometer Z-axis,Empatica E4 (Wrist),g,Maximum Value in Window,Predictor Feature
+w_acc_z_median,Accelerometer Z-axis,Empatica E4 (Wrist),g,50th Percentile / Median,Predictor Feature
+w_acc_z_q25,Accelerometer Z-axis,Empatica E4 (Wrist),g,25th Percentile (Lower quartile),Predictor Feature
+w_acc_z_q75,Accelerometer Z-axis,Empatica E4 (Wrist),g,75th Percentile (Upper quartile),Predictor Feature
+w_acc_z_iqr,Accelerometer Z-axis,Empatica E4 (Wrist),g,Interquartile Range (75th - 25th percentile),Predictor Feature
+w_acc_z_rms,Accelerometer Z-axis,Empatica E4 (Wrist),g,Root Mean Square (Signal energy / power),Predictor Feature
+w_acc_mag_mean,Accelerometer 3D Magnitude,Empatica E4 (Wrist),g,Arithmetic Mean (Central tendency),Predictor Feature
+w_acc_mag_std,Accelerometer 3D Magnitude,Empatica E4 (Wrist),g,Standard Deviation (Signal dispersion / variability),Predictor Feature
+w_acc_mag_min,Accelerometer 3D Magnitude,Empatica E4 (Wrist),g,Minimum Value in Window,Predictor Feature
+w_acc_mag_max,Accelerometer 3D Magnitude,Empatica E4 (Wrist),g,Maximum Value in Window,Predictor Feature
+w_acc_mag_median,Accelerometer 3D Magnitude,Empatica E4 (Wrist),g,50th Percentile / Median,Predictor Feature
+w_acc_mag_q25,Accelerometer 3D Magnitude,Empatica E4 (Wrist),g,25th Percentile (Lower quartile),Predictor Feature
+w_acc_mag_q75,Accelerometer 3D Magnitude,Empatica E4 (Wrist),g,75th Percentile (Upper quartile),Predictor Feature
+w_acc_mag_iqr,Accelerometer 3D Magnitude,Empatica E4 (Wrist),g,Interquartile Range (75th - 25th percentile),Predictor Feature
+w_acc_mag_rms,Accelerometer 3D Magnitude,Empatica E4 (Wrist),g,Root Mean Square (Signal energy / power),Predictor Feature
+w_bvp_mean,Blood Volume Pulse (PPG),Empatica E4 (Wrist),relative,Arithmetic Mean (Central tendency),Predictor Feature
+w_bvp_std,Blood Volume Pulse (PPG),Empatica E4 (Wrist),relative,Standard Deviation (Signal dispersion / variability),Predictor Feature
+w_bvp_min,Blood Volume Pulse (PPG),Empatica E4 (Wrist),relative,Minimum Value in Window,Predictor Feature
+w_bvp_max,Blood Volume Pulse (PPG),Empatica E4 (Wrist),relative,Maximum Value in Window,Predictor Feature
+w_bvp_median,Blood Volume Pulse (PPG),Empatica E4 (Wrist),relative,50th Percentile / Median,Predictor Feature
+w_bvp_q25,Blood Volume Pulse (PPG),Empatica E4 (Wrist),relative,25th Percentile (Lower quartile),Predictor Feature
+w_bvp_q75,Blood Volume Pulse (PPG),Empatica E4 (Wrist),relative,75th Percentile (Upper quartile),Predictor Feature
+w_bvp_iqr,Blood Volume Pulse (PPG),Empatica E4 (Wrist),relative,Interquartile Range (75th - 25th percentile),Predictor Feature
+w_bvp_rms,Blood Volume Pulse (PPG),Empatica E4 (Wrist),relative,Root Mean Square (Signal energy / power),Predictor Feature
+w_eda_mean,Electrodermal Activity,Empatica E4 (Wrist),μS,Arithmetic Mean (Central tendency),Predictor Feature
+w_eda_std,Electrodermal Activity,Empatica E4 (Wrist),μS,Standard Deviation (Signal dispersion / variability),Predictor Feature
+w_eda_min,Electrodermal Activity,Empatica E4 (Wrist),μS,Minimum Value in Window,Predictor Feature
+w_eda_max,Electrodermal Activity,Empatica E4 (Wrist),μS,Maximum Value in Window,Predictor Feature
+w_eda_median,Electrodermal Activity,Empatica E4 (Wrist),μS,50th Percentile / Median,Predictor Feature
+w_eda_q25,Electrodermal Activity,Empatica E4 (Wrist),μS,25th Percentile (Lower quartile),Predictor Feature
+w_eda_q75,Electrodermal Activity,Empatica E4 (Wrist),μS,75th Percentile (Upper quartile),Predictor Feature
+w_eda_iqr,Electrodermal Activity,Empatica E4 (Wrist),μS,Interquartile Range (75th - 25th percentile),Predictor Feature
+w_eda_rms,Electrodermal Activity,Empatica E4 (Wrist),μS,Root Mean Square (Signal energy / power),Predictor Feature
+w_temp_mean,Skin Temperature,Empatica E4 (Wrist),°C,Arithmetic Mean (Central tendency),Predictor Feature
+w_temp_std,Skin Temperature,Empatica E4 (Wrist),°C,Standard Deviation (Signal dispersion / variability),Predictor Feature
+w_temp_min,Skin Temperature,Empatica E4 (Wrist),°C,Minimum Value in Window,Predictor Feature
+w_temp_max,Skin Temperature,Empatica E4 (Wrist),°C,Maximum Value in Window,Predictor Feature
+w_temp_median,Skin Temperature,Empatica E4 (Wrist),°C,50th Percentile / Median,Predictor Feature
+w_temp_q25,Skin Temperature,Empatica E4 (Wrist),°C,25th Percentile (Lower quartile),Predictor Feature
+w_temp_q75,Skin Temperature,Empatica E4 (Wrist),°C,75th Percentile (Upper quartile),Predictor Feature
+w_temp_iqr,Skin Temperature,Empatica E4 (Wrist),°C,Interquartile Range (75th - 25th percentile),Predictor Feature
+w_temp_rms,Skin Temperature,Empatica E4 (Wrist),°C,Root Mean Square (Signal energy / power),Predictor Feature
