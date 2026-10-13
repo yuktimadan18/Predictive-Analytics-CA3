@@ -1,0 +1,23 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Raw Datasets & Large Data Archives (Local only)
+data/raw/
+
+# Jupyter & Scratch Files
+.ipynb_checkpoints/
+scratch/
+temp.ipynb
+
+# IDE & OS Artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

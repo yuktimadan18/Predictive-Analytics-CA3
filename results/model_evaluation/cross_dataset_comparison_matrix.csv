@@ -1,0 +1,10 @@
+Evaluation Dimension,WESAD (Track A: Laboratory Bench),QoL_Stress (Track B: Consumer Tracker)
+Sensing Modalities,"Chest ECG, Respiration, EMG, EDA, Temp, ACC + Wrist BVP, EDA, Temp, ACC",Wrist Lead-I ECG strip (Fitbit) + Wrist EDA tonic SCL & SCR count
+Sensor Sampling Rates,"700 Hz (Chest), 4 Hz (Wrist EDA/Temp), 64 Hz (BVP), 32 Hz (ACC)","250 Hz (Wrist ECG), 1 Hz (On-device tonic SCL)"
+Observation Unit & Duration,"2,575 sliding windows (60s window, 10s step, 83.3% overlap)",124 discrete session blocks (30s ECG strip + 2.7min EDA block)
+Cohort Scale & Demographics,"15 university students (Age: 27.5 ± 2.4, 12M / 3F)","64 working adults (Age: 29.8 ± 7.0, 39M / 25F in modeling cohort)"
+Target Class Balance,"1,671 Baseline (64.89%) vs 904 Stress (35.11%) [Ratio 1.85 : 1]",64 Relax (51.61%) vs 60 Stress (48.39%) [Ratio 1.07 : 1]
+Top Performing Model,HistGradientBoosting (Non-linear gradient boosted trees),Logistic Regression (L2-regularized linear boundary)
+Peak Balanced Accuracy (Pooled),93.11% (HistGradientBoosting),62.03% (Logistic Regression)
+Peak Macro F1 (Pooled),0.9384 (HistGradientBoosting),0.6204 (Logistic Regression)
+Peak PR-AUC (Pooled),0.9544 (HistGradientBoosting),0.6416 (Logistic Regression)
