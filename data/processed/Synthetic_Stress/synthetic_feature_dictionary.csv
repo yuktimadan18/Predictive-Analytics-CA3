@@ -1,0 +1,15 @@
+feature_name,modality,data_type,role,description
+synthetic_subject_id,Metadata,string,Grouping ID,Synthetic participant identifier (SYN_01 - SYN_50)
+window_idx,Metadata,integer,Index,Within-subject sample observation index (1 - 50)
+condition_name,Metadata,string,Condition,Simulation condition ('baseline' vs 'stress')
+target_label,Metadata,integer,Target,"Binary ground-truth target (0 = baseline, 1 = stress)"
+ecg_hr_mean,ECG,float,Predictor,Mean heart rate in beats per minute (bpm)
+ecg_hrv_sdnn,ECG,float,Predictor,Standard deviation of NN intervals in milliseconds (ms)
+ecg_hrv_rmssd,ECG,float,Predictor,Root mean square of successive differences in milliseconds (ms)
+ecg_hrv_pnn50,ECG,float,Predictor,Percentage of successive NN differences > 50ms (%)
+ecg_hrv_lf_hf_ratio,ECG,float,Predictor,Ratio of low-frequency to high-frequency HRV spectral power
+eda_scl_mean,EDA,float,Predictor,Mean tonic skin conductance level in microsiemens (uS)
+eda_scl_std,EDA,float,Predictor,Standard deviation of tonic skin conductance in microsiemens (uS)
+eda_scr_count,EDA,integer,Predictor,Count of phasic skin conductance response peaks per window
+resp_rate_mean,Respiration,float,Predictor,Mean respiratory rate in breaths per minute (bpm)
+resp_amplitude_std,Respiration,float,Predictor,Standard deviation of respiratory expansion amplitude

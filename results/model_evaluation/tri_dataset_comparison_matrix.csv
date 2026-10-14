@@ -1,0 +1,10 @@
+Evaluation Dimension,WESAD (Track A: Real Lab),QoL_Stress (Track B: Real Ambulatory),Synthetic_Stress (Track C: Controlled Simulation)
+Data Nature & Source,Empirical in-vivo laboratory telemetry (Chest RespiBAN + Wrist E4),Empirical in-the-wild ambulatory telemetry (Wrist Fitbit + Empatica),In-silico parametric generative simulation (Latent autonomic state model)
+Cohort Scale & Observations,"15 human subjects (2,575 sliding windows)",64 human subjects (124 episodic session blocks),"50 simulated participants (2,500 sliding windows)"
+Sensor Modalities & Features,"Chest ECG, Resp, EMG, EDA, Temp, ACC + Wrist BVP (144 features)",Wrist Lead-I ECG + Wrist EDA tonic/phasic (25 features),"Simulated Multimodal Autonomic Markers: ECG, EDA, Resp (10 features)"
+Class Distribution & Balance,"1,671 Baseline (64.9%) vs 904 Stress (35.1%) [Ratio 1.85 : 1]",64 Relax (51.6%) vs 60 Stress (48.4%) [Ratio 1.07 : 1],"1,250 Baseline (50.0%) vs 1,250 Stress (50.0%) [Ratio 1.00 : 1]"
+Signal-to-Noise Ratio & Noise Source,High SNR (controlled resting & TSST protocol),"Low SNR (motion artifacts, uncalibrated wrist contact, daily confounding)",Calibrated parametric Gaussian / Poisson noise (Controlled SNR)
+Cross-Validation Protocol,15-fold Leave-One-Subject-Out (LOSO),64-fold Leave-One-Subject-Out (LOSO),50-fold Leave-One-Subject-Out (LOSO)
+Top Performing Architecture,HistGradientBoosting (Non-linear gradient boosted trees),Logistic Regression (L2-regularized linear boundary),Logistic Regression (Linear) & Tree Ensembles comparable (~88-90%)
+Peak Balanced Accuracy (Pooled),93.11% (HistGradientBoosting),62.03% (Logistic Regression),89.64% (Logistic Regression)
+Scientific & Evidential Role,Ground-truth multi-modal physiological stress benchmark,Real-world ecological validity of consumer wearable telemetry,Controlled algorithmic stress-test under defined parametric assumptions

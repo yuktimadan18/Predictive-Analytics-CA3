@@ -1,0 +1,8 @@
+metric,value
+Total Observations,2500
+Unique Subjects,50
+Baseline Samples (0),1250
+Stress Samples (1),1250
+Missing Values (NaN),0
+Infinite Values,0
+Physiological Predictors,10
