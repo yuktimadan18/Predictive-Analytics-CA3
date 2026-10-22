@@ -554,21 +554,38 @@ jupyter execute notebooks/04_Synthetic_Stress_Data_Generation_and_Evaluation.ipy
 
 ### Raw Dataset Acquisition (Optional for Full Reprocessing)
 
-Because raw sensor archives are large and subject to source-specific licensing terms, they are excluded from version control via `.gitignore` (`data/raw/`). 
+The repository includes processed feature tables, evaluation results, figures, executed notebooks, the final report, and the presentation. The original raw datasets can be accessed as follows.
 
-All engineered feature tables are already pre-computed and tracked in [`data/processed/`](data/processed/), and all evaluation results are tracked in [`results/model_evaluation/`](results/model_evaluation/). Therefore, **downloading raw data is not required** to run Notebook 03 (Model Evaluation) or Notebook 04 (Synthetic Benchmark).
+#### WESAD — Wearable Stress and Affect Detection
 
-If you wish to re-execute Notebooks 01 and 02 from scratch:
-1. **WESAD**:
-   - Download the original WESAD dataset archive from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/465/wesad+wearable+stress+and+affect+detection) or the Ubiquitous Computing Lab (University of Siegen).
-   - Extract the archive so that the 15 participant directories (`S2` through `S17`, containing `.pkl` files) are placed under:
-     `data/raw/WESAD/` (e.g., `data/raw/WESAD/S2/S2.pkl`).
-2. **QoL_Stress**:
-   - Download the QoL_Stress dataset files from [PhysioNet](https://physionet.org/content/qol-stress/1.0.0/) under open research terms.
-   - Place the constituent CSV files (`ecg.csv`, `eda.csv`, `participants.csv`, `pss_14.csv`, `stai.csv`, `fitbit_heart_rate_*.csv`) directly under:
-     `data/raw/QoL_Stress/`.
+- **Official source:** [UCI Machine Learning Repository — WESAD](https://archive.ics.uci.edu/dataset/465/wesad+wearable+stress+and+affect+detection)
+- **Alternative source:** [University of Siegen — WESAD](https://ubi29.informatik.uni-siegen.de/usi/data_wesad.html)
+- The raw archive is not redistributed in this repository. Please obtain it from an official source and follow the dataset's usage conditions.
+- For preprocessing, extract the participant directories and ensure the `.pkl` files are available at the paths expected by Notebook 01.
 
----
+#### QoL_Stress — Multimodal Physiological and Self-Reported Stress Responses
+
+- **Download from this repository:** [`QoL_Stress_v1.0.0.zip`](data/downloads/QoL_Stress_v1.0.0.zip)
+- **Official source:** [PhysioNet — QoL_Stress, Version 1.0.0](https://physionet.org/content/qol-stress/1.0.0/)
+- **DOI:** [10.13026/vqtz-pm70](https://doi.org/10.13026/vqtz-pm70)
+- **Licence:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+- Attribution and dataset information are provided in [`data/downloads/README.md`](data/downloads/README.md). The original archive is included without modification.
+- Extract the dataset files into `data/raw/QoL_Stress/` as required by Notebook 02.
+
+#### Synthetic_Stress — Controlled Synthetic Benchmark
+
+No external download is required. Notebook 04 generates the synthetic dataset and saves its outputs under `data/processed/Synthetic_Stress/`.
+
+#### Reproduction Guide
+
+1. Clone the repository and install the dependencies listed in the Environment Setup section.
+2. Obtain WESAD from an official source if you want to rerun its preprocessing.
+3. Download and extract QoL_Stress using the instructions above if you want to rerun its preprocessing.
+4. Execute Notebooks 01 and 02 to regenerate the real-dataset feature tables.
+5. Execute Notebook 03 for model training and evaluation.
+6. Execute Notebook 04 for synthetic data generation and evaluation.
+
+Raw-data downloads are not required to inspect the committed processed datasets, evaluation results, report, or presentation.
 
 ## 11. Methodological Limitations & Epistemological Boundaries
 
