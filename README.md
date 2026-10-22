@@ -507,7 +507,7 @@ Clone the repository and create a clean virtual environment:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/Predictive-Analytics-CA3.git
+git clone https://github.com/yuktimadan18/Predictive-Analytics-CA3.git
 cd Predictive-Analytics-CA3
 
 # Create a local virtual environment
