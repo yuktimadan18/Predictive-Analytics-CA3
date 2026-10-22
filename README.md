@@ -651,3 +651,8 @@ This study provides a rigorous, empirically grounded assessment of machine learn
 2. **Inductive Bias and Feature Granularity**: In the discrete, session-aggregated consumer wearable setting (QoL_Stress, N=124), heavily regularized linear models (62.03% BAcc) generalized better across subjects than flexible tree ensembles (49.17% BAcc for HGB), which were sensitive to sensorimotor gameplay variance and small sample size.
 3. **Multimodal Trait Context Provides a Modest Signal**: Incorporating baseline psychological trait assessments (PSS-14, STAI) and demographic markers provides consistent modest performance gains (+1.51% to +3.33% Balanced Accuracy) alongside wearable biosignals.
 4. **Parametric Benchmarks Demonstrate Architectural Upper Bounds**: The supplementary synthetic experiment confirms that under identical, mathematically defined distributions, linear models achieve **89.64% Balanced Accuracy** with low inter-subject variance ($\pm 5.37\%$), demonstrating the theoretical ceiling achievable when physiological markers conform to separable parametric assumptions.
+
+## Final CA-3 Submission
+
+- [Final Project Report (PDF)](report/Final_Report.pdf)
+- [Final Presentation (PowerPoint)](presentation/Stress_Prediction_CA3.pptx)
